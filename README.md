@@ -13,7 +13,7 @@ Ce document explique étape par étape comment déployer une application React N
 
 - **Compte Apple Developer**  
   Assurez-vous d’avoir accès au [Compte Apple Developer](https://developer.apple.com/account/).  
-  Créez un nouvel identifiant d’application (App ID) correspondant à l’identifiant unique de votre projet (`com.votreentreprise.votreapp`) présent dans le code source.
+  Créez un nouvel identifiant d’application (App ID) correspondant à l’identifiant unique de du projet (`com.lrcgroup.dtmoney`) présent dans le code source.
 
 ## Étapes de configuration
 

@@ -38,9 +38,9 @@ workflows:
     name: iOS Release Build
     environment:
       vars:
-        XCODE_WORKSPACE: "ios/VotreApp.xcworkspace"
+        XCODE_WORKSPACE: "ios/DTMoney.xcworkspace"
         XCODE_SCHEME: "VotreApp"
-        BUNDLE_ID: "com.votreentreprise.votreapp"
+        BUNDLE_ID: "com.lrcgroup.dtmoney"
       ios_signing:
         distribution_type: app_store
         bundle_identifier: $BUNDLE_ID
@@ -56,8 +56,8 @@ workflows:
           pod install
       - name: Build IPA
         script: |
-          xcodebuild -workspace $XCODE_WORKSPACE -scheme $XCODE_SCHEME -configuration Release -sdk iphoneos archive -archivePath $HOME/build/VotreApp.xcarchive
-          xcodebuild -exportArchive -archivePath $HOME/build/VotreApp.xcarchive -exportOptionsPlist ios/exportOptions.plist -exportPath $HOME/build/export
+          xcodebuild -workspace $XCODE_WORKSPACE -scheme $XCODE_SCHEME -configuration Release -sdk iphoneos archive -archivePath $HOME/build/DTMoney.xcarchive
+          xcodebuild -exportArchive -archivePath $HOME/build/DTMoney.xcarchive -exportOptionsPlist ios/exportOptions.plist -exportPath $HOME/build/export
     artifacts:
       - build/export/*.ipa
 ```

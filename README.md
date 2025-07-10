@@ -23,7 +23,7 @@ Sur Windows, vous pouvez générer les fichiers nécessaires au build iOS sans e
 
 ```bash
 npx react-native eject
-npx react-native init NomDuProjet
+npx react-native init DTMoney
 ```
 
 > ⚠️ Vous ne pourrez pas lancer l'app iOS localement sous Windows. Ce build sert uniquement à préparer les fichiers de configuration.

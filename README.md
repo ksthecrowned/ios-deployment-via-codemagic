@@ -1,5 +1,5 @@
 
-# Guide de Déploiement iOS avec Codemagic (React Native)
+# 📱 Guide de Déploiement iOS avec Codemagic (React Native)
 
 Ce document explique étape par étape comment déployer une application React Native sur iOS en utilisant Codemagic depuis un environnement Windows.
 

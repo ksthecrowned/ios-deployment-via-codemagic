@@ -9,7 +9,7 @@ Ce document explique étape par étape comment déployer une application React N
   L’application doit être hébergée sur GitHub, de préférence dans l'organisation ou le compte de **LRC Group**.
 
 - **Accès Codemagic**  
-  Vous devez vous connecter à Codemagic via le compte GitHub de LRC Group.
+  Vous devez vous connecter à [Codemagic](https://codemagic.io/start/) via le compte GitHub de LRC Group.
 
 - **Compte Apple Developer**  
   Assurez-vous d’avoir accès au [Compte Apple Developer](https://developer.apple.com/account/).  
